@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Tables && Forms && TextArea
+        </title>
+    </head>
+
+    <body>
+        <table border="1"> <!--'border attribute is Deprecated now-->
+            <thead><!--labelling of parts-->
+                <tr><!--taking a row where each header(th) creates a column-->
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                    <th>Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Steve</td><!--data cell td-->
+                    <td colspan="2">128</td><!--this row will span for 2 columns on the right-->
+                    
+                    <td>American</td>
+                </tr>
+
+                <tr>
+                    <td>Jerry</td>
+                    <td>128</td>
+                    <td>Cap</td>
+                    <td rowspan="2">American</td><!--this column will span for 2 rows to the bottom-->
+                </tr>
+
+                <tr>
+                    <td>Steve</td>
+                    <td>128</td>
+                    <td>Cap</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Steve</td>
+                    <td>128</td>
+                    <td>Cap</td>
+                    <td>American</td>
+                </tr>
+
+                <tr>
+                    <td>Steve</td>
+                    <td>128</td>
+                    <td>Cap</td>
+                    <td>American</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h1>Form</h1>
+
+        <form>
+            <div>
+                <P><input type="password"/></P>
+                <p><input type="file"/></p>
+                <p><input type="checkbox"/>Allow Tracking</p>
+                <p>
+                    <label for="name">
+                        Please Write your name
+                    </label></p>
+                <input type="text" name="your_name" id="name" value="your name">
+                <!--here the name attribute acts as key for key-value pair to the server, ie, input to this field goes to server as "your_name = input" where the id is unique onl;y within the context of the form-->
+
+                <!--some other attributes of input are "disabled" for fixed information for the field, "Value='anything' as prefilled which can be changed or Read-only-->
+
+                <P>
+                    <label for="about">Write something about yourself</label>
+                </P>
+                <textarea name="text" id="about" rows="10" cols="100" placeholder="Anything you like to tell about yourself"></textarea> <!--pretty much the same as forms-->
+
+                <P>
+                    <label for="select">Select the Varient of your choice</label>
+                </P>
+                <select name="vareint" id="select">
+                    <option value="SD">Snapdragon Varient</option>
+                    <option value="Ex">Exynos Varient</option>
+                    <Option value="Tn">Tensor Varient</Option>
+                </select><!--can use attributes like disabled, values etc for both options and select -->
+                <p>Radio selecting multiple options or 1 between F1/F2 && F3/f4</p>
+                <p>
+                    <input type="radio" name="radio1" value="Frequency1" id=f1>
+
+                    <label for="f1">
+                        Frequency1
+                    </label>
+                </p>
+
+                <p>
+                    <input type="radio" name="radio1" value="Frequency2" id=f2>
+
+                    <label for="f2">
+                        Frequency1
+                    </label>
+                </p>
+
+                <p>
+                    <input type="radio" name="radio2" value="Frequency1" id=f1>
+
+                        Frequency3 <!--no label tag means it's just plain text-->
+                    
+                </p>
+
+                <p>
+                    <input type="radio" name="radio2" value="Frequency1" id=f4>
+
+                    <label for="f4">
+                        Frequency1
+                    </label>
+                </p>
+
+                <input type="submit" value="Login">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+
+                <P>
+                    <label for="about">Write something about yourself</label>
+                </P>
+                <textarea name="text" id="about" rows="10" cols="100" placeholder="Anything you like to tell about yourself"></textarea>
+
+                <input type="date">
+                <input type="time">
+
+                <img src="348.jpg" alt="Batman"
+                height="60"
+                width="120">
+
+                <p>
+                    <img src="1.jpeg" alt="jerry and Nephew"
+                    height="250"
+                    width="400">
+                </p>
+                
+
+
+            </div>
+
+        </form>
+        
+        
+    </body>
+    
+
+
+</html>
