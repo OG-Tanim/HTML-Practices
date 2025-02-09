@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif+Hentaigana:wght@200..900&display=swap');
+
+.header_1{
+    font: optional;
+    font-size: large;
+    color: aqua;
+    background-color: black;
+}
+
+#header_2{
+    font: optional;
+    font-size: large;
+    color: aqua;
+    background-color: black;
+}
+
+.box {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    background-image: url(1.jpeg);
+    background-size: cover; /* cover, contain, auto */
+    background-position: center;
+    border: 2px beige solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box h5 {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    font: 35;
+    border-bottom: 1px dashed black;
+    padding: auto;
+    margin: auto;
+
+}
