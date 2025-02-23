@@ -1,0 +1,110 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base typography and layout */
+body {
+    font-family: "Inter", serif;
+    font-size: 16px;
+    line-height: 31px;
+    color: #6C7792;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Plus Jakarta Sans", serif;
+    color: #313435;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* CTA Area styles */
+.cta-area {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-area:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 45%;
+    height: 80%;
+    background: #F4F4F9;
+    z-index: -1;
+}
+
+.cta-area-inner {
+    display: flex;
+    align-items: center;
+}
+
+/* CTA Text section */
+.cta-text {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.cta-text h2 {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+
+.cta-text p {
+    margin-bottom: 13px;
+}
+
+p.pre-header {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+/* CTA Boxes section */
+.cta-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+.cta-single-box {
+    width: 50%;
+}
+
+.single-box-inner {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    padding: 28px;
+    margin: 25px 0 0 25px;
+    border-radius: 10px;
+}
+
+.cta-box-icon {
+    width: 50px;
+    height: 50px;
+    background: #F4F9FC;
+    padding: 5px;
+    color: #5D74F2;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
