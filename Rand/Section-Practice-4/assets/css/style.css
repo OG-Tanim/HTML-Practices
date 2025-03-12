@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #F7F7FA;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.cookies-alert {
+    background: white;
+    position: fixed;
+    left: 35px;
+    bottom: 25px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    box-shadow: 5px 6px 10px #00000045;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.cookies-alert a {
+    color: #091CF6;
+}
+
+.border-btn {
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.cookies-alert .border-btn a {
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 84px 0 126px;
+    border-bottom: 1px solid #00000047;
+    margin-bottom: 80px;
+}
+
+.hero-text {
+    width: 50%;
+    margin-right: 70px;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 35px;
+}
+
+.hero-text h3 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 35px;
+}
+
+.hero-text span {
+    color: #091CF6;
+}
+
+.hero-img {
+    position: relative;
+    width: 56%;
+    height: 510px;
+    padding-left: 108px;
+}
+
+.hero-img img {
+    position: absolute;
+}
+
+.hero-img img:nth-child(1) {
+    border: 2px solid blue;
+    border-radius: 11px;
+    top: 64px;
+    left: 89px;
+    width: 314px;
+}
+
+.hero-img img:nth-child(2) {
+    height: 385px;
+    width: 60px;
+    top: -10px;
+    right: 116px;
+}
+
+.hero-img img:nth-child(3) {
+    width: 56px;
+    bottom: 4px;
+    left: 52px;
+}
+
+.hero-img img:nth-child(4) {
+    width: 140px;
+    bottom: -81px;
+    left: 140px;
+}
+
+.blue-bg-button a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    background: #091CF6;
+    border-radius: 6px;
+}
+
+svg.size-6 {
+    width: 17px;
+    margin-left: 8px;
+    margin-bottom: -3px;
+    stroke-width: 4px;
+}
+
+.cta .container h3 {
+    color: #001329;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cta-stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 60px;
+}
+
+.stat h5 {
+    color: #001329;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.ash-bg {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #E8ECF7;
+    border-radius: 30px;
+    margin-bottom: 150px;
+}
+
+.ash-bg-text {
+    width: 46%;
+    padding: 60px 40px;
+}
+
+.ash-bg-text h2 {
+    font-weight: 600;
+    color: rgb(22, 29, 37);
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 50px;
+}
+
+.ash-bg-text h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.ash-bg-text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+.ash-bg-text img {
+    width: 170px;
+    margin-right: 355px;
+    margin-bottom: 30px;
+}
+
+.ash-bg-text-flex {
+    display: flex;
+}
+
+.ash-bg-text-flex-item {
+    padding-right: 90px;
+    margin-bottom: 40px;
+}
+
+.ash-bg-text-flex-item svg {
+    width: 25px;
+    margin-left: revert-layer;
+}
+
+.ash-bg-img {
+    position: relative;
+    overflow: hidden;
+    width: 52%;
+    padding-bottom: -40px;
+    border-radius: 30px;
+}
+
+.ash-bg-img img:nth-child(1) {
+    position: absolute;
+    top: 134px;
+    left: 54px;
+    width: 100%;
+}
+
+.ash-bg-img img:nth-child(2) {
+    position: absolute;
+    width: 220px;
+    top: 337px;
+    left: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
