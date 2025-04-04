@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    background-color: cadetblue;
+    display: flex;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+ul li.active {
+    background-color: rgb(255, 94, 0);
+}
+.tab-content {
+    display: none;
+}
+
+.tab-content-wrapper .tab-content:first-child{
+    display: block;
+}
